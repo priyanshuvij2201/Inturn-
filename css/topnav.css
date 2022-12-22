@@ -1,0 +1,105 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+nav {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow:  2px 2px 8px #888888;
+}
+.openLinks {
+	display: block;
+}
+.openLinks a {
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 60px;
+    float: right;
+    color: #5b5b5b;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+}
+.openLinks a:hover {
+    font-weight: bolder;
+}
+.menuToggleAnimatedContainer {
+	display: none;
+}
+.menuToggleAnimatedContainer:hover + .closeLinks {
+   display: block;
+}
+.closeLinks {
+	display: none;
+    width: 120px;
+    position: absolute;
+    right: 20px;
+    top: 79px;
+    background-color: #e8e8e8;
+    line-height: 130%;
+}
+.closeLinks a{
+	text-decoration: none;
+    line-height: 20px;
+    color: #5b5b5b;
+    float: left;
+    margin: 0 auto;
+    margin-right: 20px;
+    margin-left: 10px;
+    line-height: 40px;
+    font-size: 22px;
+    font-family: 'Comfortaa', cursive;
+}
+.logo {
+    height: 65px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.topnavButton {
+    border-style: solid;
+    border-color: #29c9ff;
+    border-width: 3px;
+    color: #ffffff;
+    padding: 13px 28px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 100px;
+}
+.topnavClosedButton {
+    border-style: solid;
+    border-color: #29c9ff;
+    border-width: 3px;
+    padding-bottom: 5px;
+    color: #5b5b5b;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 100px;
+}
+.topnavButton:hover {
+    background-color: #29c9ff;
+    color: #ffffff;
+}
+@media screen and (max-width: 687px) {
+    .openLinks {
+        display: none;
+    }
+    .menuToggleAnimatedContainer {
+    	display: block;
+    	float: right;
+    	margin-right: 20px;
+    	margin-top: 20px;
+    }
+}

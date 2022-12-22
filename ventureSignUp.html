@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Inturn</title>
+      <!--Meta Data-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+      <meta charset="UTF-8">
+      <!--Stylesheets-->
+      <link rel="stylesheet" type="text/css" href="css/topnav.css">
+      <link rel="stylesheet" type="text/css" href="css/menuToggleAnimation.css">
+      <link rel="stylesheet" type="text/css" href="css/footer.css">
+      <link rel="stylesheet" type="text/css" href="css/login.css">
+      <!--GoogleFonts-->
+      <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <<!--Animations libraby-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav id="nav">
+         <div class="openLinks">
+            <a href="studentLogin.html"><button class="topnavButton">Student</button></a>
+            <a href="ventureLogin.html"><button class="topnavButton">Venture</button></a>
+         </div>
+         <a href="index.html"><img src="css/img/logo.png" class="logo"></a>
+         <div class="menuToggleAnimatedContainer">
+            <div class="menuToggleAnimated" onclick="myFunction(this)">
+               <div id="bar1" class="menuToggleBar"></div>
+               <div id="bar2" class="menuToggleBar"></div>
+               <div id="bar3" class="menuToggleBar"></div>
+            </div>
+         </div>
+         <div class="closeLinks">
+            <a href="studentLogin.html"><button class="topnavClosedButton">Student</button></a>
+            <a href="ventureLogin.html"><button class="topnavClosedButton">Venture</button></a>x
+         </div>
+      </nav>
+      <section class="signupSection">
+         <p class="signupHead">Signup</p>
+         <input type="text" placeholder="Venture name">
+         <input type="text" placeholder="Official phone number">
+         <input type="text" placeholder="Email"><br>
+
+         <input type="text" placeholder="Year Started" style="max-width: 170px;">
+         <input type="text" placeholder="Office address" style="max-width: 200px;">
+         <input type="text" placeholder="Website link" style="max-width: 150px;">
+         <br><a href="ventureDashboard.html"><button class="topnavButton">Sign Up</button></a>
+      </section>
+      <footer class="footer" id="footer">
+         <img src="css/img/logoWhite.png" class="logo_bottom">
+         <p class="contact_details">
+            <a href="mailto: inturncompany@gmail.com">inturncompany@gmail.com</a><br>
+         </p>
+         <div class="empty"></div>
+      </footer>
+      <script type="text/javascript">
+         function myFunction(x) {
+           		x.classList.toggle("change");
+         }
+      </script>
+      <script type="text/javascript">
+         var x = screen.height;
+         var y = document.getElementsByTagName("nav").offsetHeight;
+         var z = (x - 560) + "px";
+         var content = document.getElementById("mainHead").style.marginTop = z;
+      </script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+   </body>
+</html>

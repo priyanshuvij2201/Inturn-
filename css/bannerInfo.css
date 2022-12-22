@@ -1,0 +1,40 @@
+.bannerInfo {
+	z-index: -1;
+}
+.bannerHead {
+    float: left;
+    margin-left: 40px;
+    color: #ffffff;
+    font-size: 55px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.bannerTagline {
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+.bannerButton {
+	border-style: solid;
+	border-color: #29c9ff;
+	border-width: 3px;
+    color: white;
+    padding: 13px 28px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 100px;
+}
+.bannerButton:hover {
+	background-color: #29c9ff;
+}
+.bannerButtons {
+	float: left;
+    margin-left: 40px;
+}

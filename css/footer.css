@@ -1,0 +1,62 @@
+footer {
+	margin-top: 0px;
+    padding-top: 0px;
+	bottom: 0;
+	background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+}
+.logo_bottom {
+	height: 90px;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.contact_details {
+	text-align: left;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: 'Ubuntu';
+	margin-left: 30px;
+	font-size: 17px;
+}
+.contact_details a {
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block; 
+	vertical-align: middle;
+}
+.contact_details a:hover {
+	font-weight: bolder;
+	color: #29c9ff;
+	text-decoration: none;
+}
+.site_links a{
+	color: #ffffff;
+	text-align: left;
+	font-family: 'Ubuntu';
+	font-size: 15px;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+}
+.site_links a:hover {
+	font-weight: bolder;
+	color: #29c9ff;
+	text-decoration: none;
+}
+.site_links {
+	text-align: center;
+}
+.empty{
+	height: 15px;
+	width: 100%;
+	bottom: 0px;
+	background-color: #153684;
+}

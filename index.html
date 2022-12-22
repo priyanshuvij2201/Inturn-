@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Inturn</title>
+      <!--Meta Data-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+      <meta charset="UTF-8">
+      <!--Stylesheets-->
+      <link rel="stylesheet" type="text/css" href="css/topnav.css">
+      <link rel="stylesheet" type="text/css" href="css/menuToggleAnimation.css">
+      <link rel="stylesheet" type="text/css" href="css/backgroundImage.css">
+      <link rel="stylesheet" type="text/css" href="css/bannerInfo.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/footer.css">
+      <!--GoogleFonts-->
+      <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <<!--Animations libraby-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav id="nav">
+         <div class="openLinks">
+            <a href="studentLogin.html"><button class="topnavButton">Student</button></a>
+            <a href="ventureLogin.html"><button class="topnavButton">Venture</button></a>
+         </div>
+         <a href="index.html"><img src="css/img/logo.png" class="logo"></a>
+         <div class="menuToggleAnimatedContainer">
+            <div class="menuToggleAnimated" onclick="myFunction(this)">
+               <div id="bar1" class="menuToggleBar"></div>
+               <div id="bar2" class="menuToggleBar"></div>
+               <div id="bar3" class="menuToggleBar"></div>
+            </div>
+         </div>
+         <div class="closeLinks">
+            <a href="studentLogin.html"><button class="topnavClosedButton">Student</button></a>
+            <a href="ventureLogin.html"><button class="topnavClosedButton">Venture</button></a>
+         </div>
+      </nav>
+      <section class="bannerInfo" id="bannerInfo" data-aos="fade-right" data-aos-duration="1000">
+         <!--<p class="bannerHead" id="bannerHead">INTURN</p>-->
+         <img src="css/img/logoWhite.png" class="bannerImg" id="bannerImg" style="max-height: 150px; margin-left: 30px; margin-bottom: 10px;">
+         <p class="bannerTagline">Your turn to shine</p>
+         <div class="bannerButtons">
+            <a href="#linkOne"><button class="bannerButton">Our Partners</button></a>
+            <a href="#footer"><button class="bannerButton" style="margin-left: 10px;">Contact Us</button></a>
+         </div>
+      </section>
+      <section class="mainBody" id="mainBody">
+         <p class="mainBodyHead">This is the place you were looking for!</p>
+         <p class="mainBodySubHead" id="linkOne">Inturn connects highschool students with successful ventures and startups. Inturn has amalgated with pioneering ventures and schools to provide a platform where students learn from real life experiences. </p>
+         
+         <section class="category">
+         	<p class="categoryHead">Our Partners</p>
+         	<p class="categorySubHead">Successful ventures that you can be a part of</p>
+         	<section class="featureCards">
+         		<div class="featureCard">
+         			<img src="css/img/featureOne.png" class="featureCardImg">
+         			<p class="featureCardHead">RoxixStudio</p>
+         			<p class="featureCardDescription">Tech</p>
+         		</div>
+         		<div class="featureCard">
+         			<img src="css/img/featureTwo.jpg" class="featureCardImg">
+         			<p class="featureCardHead">CulunaryNation</p>
+         			<p class="featureCardDescription">Food</p>
+         		</div>
+         		<div class="featureCard">
+         			<img src="css/img/featureThree.png" class="featureCardImg">
+         			<p class="featureCardHead">Upteriors</p>
+         			<p class="featureCardDescription">Architecture</p>
+         		</div>
+         		<div class="featureCard">
+         			<img src="css/img/featureFour.png" class="featureCardImg">
+         			<p class="featureCardHead">UniVogue</p>
+         			<p class="featureCardDescription">Fashion</p>
+         		</div>
+         	</section>
+         	<section class="parallaxButtons">
+         		<p class="parallaxSubHead">So what are you waiting for? Join now</p>
+         		<a href="studentLogin.html"><button class="parallaxButton" style="margin-right: 50px;">Student</button></a>
+            	<a href="ventureLogin.html"><button class="parallaxButton">Venture</button></a>
+         	</section>
+         	<section class="para_row">
+                    <p class="row_para" id="row_para_one">
+                        <span class="row_para_head">How we make the magic happen?</span><br>
+                        Just fill an easy form and get going. You'll be recommended ventures that might interest you on the basis of you interests.</p>
+
+                    <p class="row_para" id="row_para_two">
+                        <span class="row_para_head">Why us?</span><br>
+                        Our one of a kind platform provides a space for high school students to learn with pioneering ventures and gain experiece in this competitive world.</p>
+                </section>
+         </section>
+      </section>
+      <footer class="footer" id="footer">
+         <img src="css/img/logoWhite.png" class="logo_bottom">
+         <p class="contact_details">
+            <a href="mailto: inturncompany@gmail.com">inturncompany@gmail.com</a><br>
+         </p>
+         <div class="empty"></div>
+      </footer>
+      <script type="text/javascript">
+         function myFunction(x) {
+           		x.classList.toggle("change");
+         }
+      </script>
+      <script type="text/javascript">
+         var x = screen.height;
+         var y = document.getElementsByTagName("nav").offsetHeight;
+         var z = (x - 560) + "px";
+         var content = document.getElementById("bannerImg").style.marginTop = z;
+      </script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+   </body>
+</html>

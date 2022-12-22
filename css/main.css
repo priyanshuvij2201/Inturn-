@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.mainBody {
+	width: 100%;
+	background-color: #ffffff;
+	display: block;
+	margin-top: 270px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+.mainBodyHead {
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+.mainBodySubHead  {
+	color: #4c4c4c;
+    font-size: 20px;
+    font-family: 'Ubuntu', monospace;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.categoryHead {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.categorySubHead {
+    color: #4c4c4c;
+    font-size: 17px;
+    font-family: 'Ubuntu', monospace;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.featureCards {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.featureCard {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow:  2px 2px 20px #888888;
+}
+.featureCardImg{
+    width: 250px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.featureCardHead {
+    color: #153684;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.featureCardDescription {
+    color: #1b45a7;
+    font-size: 17px;
+    font-family: 'Ubuntu', monospace;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.parallaxButtons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("img/parallaxBanner.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.parallaxButton {
+    border-style: solid;
+    display: inline-block;
+    border-color: #29c9ff;
+    border-width: 3px;
+    color: white;
+    padding: 13px 28px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 100px;
+}
+.parallaxButton:hover {
+    background-color: #29c9ff;
+}
+.parallaxSubHead {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 'Comfortaa', monospace;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 800px;
+    font-weight: bolder;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.para_row {
+    text-align: center;
+    padding-top: 15px;
+}
+.row_para {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 500px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-family: 'Ubuntu', monospace;
+    color: #4c4c4c;
+    line-height: 1.7;
+}
+.row_para_head {
+    padding-bottom: 20px; 
+    font-family: 'Comfortaa';
+    font-size: 23px;
+    font-weight: bolder;
+    color: #000000;
+}

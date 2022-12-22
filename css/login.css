@@ -1,0 +1,69 @@
+.loginSection input {
+	border-radius: 20px;
+	text-decoration: none;
+	box-shadow: none;
+	border-style: solid;
+	border-color: #29c9ff;
+	height: 27px;
+	display: inline-block;
+	max-width: 250px;
+	margin-bottom: 10px;
+    color: #5b5b5b;
+    padding: 10px 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 100px;
+}
+.loginSection {
+	margin-left: 40px;
+}
+.loginHead {
+	color: #000000;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    text-align: left;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.signupHead {
+	color: #000000;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    text-align: left;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.mainHead {
+	color: #000000;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 50px;
+}
+.signupSection {
+	margin-left: 40px;
+	margin-bottom: 60px;
+}
+.signupSection input {
+	border-radius: 20px;
+	text-decoration: none;
+	box-shadow: none;
+	border-style: solid;
+	border-color: #29c9ff;
+	height: 27px;
+	display: inline-block;
+	max-width: 250px;
+	margin-bottom: 10px;
+    color: #5b5b5b;
+    padding: 10px 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 100px;
+}

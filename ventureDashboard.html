@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Inturn</title>
+      <!--Meta Data-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+      <meta charset="UTF-8">
+      <!--Stylesheets-->
+      <link rel="stylesheet" type="text/css" href="css/topnav.css">
+      <link rel="stylesheet" type="text/css" href="css/menuToggleAnimation.css">
+      <link rel="stylesheet" type="text/css" href="css/footer.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/login.css">
+      <!--GoogleFonts-->
+      <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <<!--Animations libraby-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav id="nav">
+         <div class="openLinks">
+            <a href="index.html"><button class="topnavButton">Log out</button></a>
+            <a href="javascript:void0"><button class="topnavButton" style="background-color: #29c9ff; color: #ffffff;">Hi there</button></a>
+         </div>
+         <a href="index.html"><img src="css/img/logo.png" class="logo"></a>
+         <div class="menuToggleAnimatedContainer">
+            <div class="menuToggleAnimated" onclick="myFunction(this)">
+               <div id="bar1" class="menuToggleBar"></div>
+               <div id="bar2" class="menuToggleBar"></div>
+               <div id="bar3" class="menuToggleBar"></div>
+            </div>
+         </div>
+         <div class="closeLinks">
+            <a href="studentLogin.html"><button class="topnavClosedButton">Student</button></a>
+            <a href="ventureLogin.html"><button class="topnavClosedButton">Venture</button></a>x
+         </div>
+      </nav>
+      <section class="companiesSection">
+         <p class="mainHead">This is your dashboard</p>
+         <p class="mainBodySubHead" style="text-align: left; margin-left: 40px; font-size: 30px;">Students that might interest you</p>
+         <section class="featureCards">
+               <div class="featureCard">
+                  <img src="css/img/person/featureThree.jpeg" class="featureCardImg">
+                  <p class="featureCardHead">Pranav Bhatnagar</p>
+                  <p class="featureCardDescription">Interested in tech</p><br>
+                  <i class="material-icons" id="likeIcon" onclick="first()" style=" color: #ff00b6; cursor: pointer;">favorite_border</i>
+                  <i class="material-icons" id="LoveIcon" onclick="second()" style="display: none; color: #ff00b6; cursor: pointer;">favorite</i>
+               </div>
+               <div class="featureCard">
+                  <img src="css/img/person/featureTwo.jpeg" class="featureCardImg">
+                  <p class="featureCardHead">Justin Tan</p>
+                  <p class="featureCardDescription">Interested in culinary arts</p><br>
+                  <i class="material-icons" id="likeIcon" onclick="first()" style=" color: #ff00b6; cursor: pointer;">favorite_border</i>
+                  <i class="material-icons" id="LoveIcon" onclick="second()" style="display: none; color: #ff00b6; cursor: pointer;">favorite</i>
+               </div>
+            </section>
+            <p class="mainBodySubHead" style="text-align: left; margin-left: 40px; font-size: 30px;">Students that have shown interest in you</p>
+         <section class="featureCards">
+            <div class="featureCard">
+                  <img src="css/img/person/featureOne.jpeg" class="featureCardImg">
+                  <p class="featureCardHead">Marcus Jones</p>
+                  <p class="featureCardDescription">Interested in fashion</p><br>
+                  <i class="material-icons" id="likeIcon" onclick="first()" style=" color: #ff00b6; cursor: pointer;">favorite_border</i>
+                  <i class="material-icons" id="LoveIcon" onclick="second()" style="display: none; color: #ff00b6; cursor: pointer;">favorite</i>
+               </div>
+               <div class="featureCard">
+                  <img src="css/img/person/featureTwo.jpeg" class="featureCardImg">
+                  <p class="featureCardHead">Justin Tan</p>
+                  <p class="featureCardDescription">Interested in culinary arts</p><br>
+                  <i class="material-icons" id="likeIcon" onclick="first()" style=" color: #ff00b6; cursor: pointer;">favorite_border</i>
+                  <i class="material-icons" id="LoveIcon" onclick="second()" style="display: none; color: #ff00b6; cursor: pointer;">favorite</i>
+               </div>
+         </section>
+      </section>
+      <footer class="footer" id="footer">
+         <img src="css/img/logoWhite.png" class="logo_bottom">
+         <p class="contact_details">
+            <a href="mailto: inturncompany@gmail.com">inturncompany@gmail.com</a><br>
+         </p>
+         <div class="empty"></div>
+      </footer>
+      <script type="text/javascript">
+         function myFunction(x) {
+           		x.classList.toggle("change");
+         }
+      </script>
+      <script type="text/javascript">
+         var x = screen.height;
+         var y = document.getElementsByTagName("nav").offsetHeight;
+         var z = (x - 560) + "px";
+         var content = document.getElementById("mainHead").style.marginTop = z;
+      </script>
+      <script type="text/javascript">
+         var like = document.getElementById("likeIcon");
+         var love = document.getElementById("LoveIcon")
+         function first() {
+            like.style.display = "none";
+            love.style.display = "block";
+         }
+         function second() {
+            like.style.display = "block";
+            love.style.display = "none";
+         }
+      </script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+   </body>
+</html>
